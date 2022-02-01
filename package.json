@@ -1,0 +1,21 @@
+{
+  "name": "wakamiko",
+  "version": "1.0.0",
+  "description": "Minimal browser",
+  "main": "index.js",
+  "scripts": {
+    "to-build": "Run `npm run build` to build app",
+    "build": "npx electron-packager . wakamiko --platform=win32 --arch=x64 --overwrite",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YA-androidapp",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "electron-localshortcut": "^3.2.1"
+  }
+}
